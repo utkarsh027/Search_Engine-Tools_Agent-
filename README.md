@@ -12,34 +12,40 @@ This project is a Streamlit application that integrates LangChain and Groq for b
 - **Interactive UI**: Built with Streamlit for easy interaction.
 - **Thought Display**: Visualize the reasoning process of the AI.
 
-## Requirements
+# Requirements
 
 The application requires Python 3.8 or higher and the following dependencies, which are listed in the `requirements.txt` file:
 
 
-## Installation
+# Installation
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/utkarsh027/Search_Engine-Tools_Agent-.git
 
-##Create a Virtual Environment:
+#Create a Virtual Environment:
+```bash
 python -m venv venv
 source venv/bin/activate venv
+```
 
-##Install Dependencies:
-
+#Install Dependencies:
+```bash
 pip install -r requirements.txt
+```
 
-##Set Up Environment Variables: Create a .env file in the root directory with your Groq API key:
+#Set Up Environment Variables: 
+
+Create a .env file in the root directory with your Groq API key:
 
 GROQ_API_KEY=your_groq_api_key
 
-##Run the Application:
-
+#Run the Application:
+```bash
 python -m streamlit run app.py
+```
 
-##Interact with the Chatbot:
+#Interact with the Chatbot:
 
 Enter your Groq API key in the sidebar.
 Ask questions in the chat input box, such as "What is machine learning?".
